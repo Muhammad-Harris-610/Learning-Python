@@ -1,0 +1,16 @@
+# Lists: Exercise 3 (Sorting a List)
+
+locations = ['Mecca', 'Jerusalem', 'Damascus', 'Medina', 'Hebron', 'Basra', 'Kufa']
+print(f'Original List: {locations}')
+print(f'\nSorted List: {sorted(locations)}')
+print(f'\nOriginal List again: {locations}')
+print(f'\nReverse Sorted List: {sorted(locations, reverse=True)}')
+print(f'\nOriginal List again: {locations}')
+locations.reverse()
+print(f'\nReversed Original List: {locations}')
+locations.reverse()
+print(f'\nList Reversed Back: {locations}')
+locations.sort()
+print(f'\nSorted Original List: {locations}')
+locations.sort(reverse=True)
+print(f'\nSorted Original List in Reverse: {locations}')
